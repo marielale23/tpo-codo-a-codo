@@ -1,0 +1,80 @@
+*{
+    margin: 5px;
+    padding: 5px;
+}
+@media only screen and (max-width: 600px) {
+    .example {background: rgb(121, 177, 214);}
+}
+@media only screen and (min-width: 600px) {
+    .example {background: rgb(121, 177, 214);}
+}
+@media only screen and (min-width: 768px) {
+    .example {background: rgb(121, 177, 214);}
+}
+@media only screen and (min-width: 992px) {
+    .example {background: rgb(121, 177, 214);}
+}  
+@media only screen and (min-width: 1200px) {
+    .example {background: rgb(121, 177, 214);}
+}
+header{
+    font-size : 8vw;
+    font-family: 'Shadows Into Light', cursive;
+    text-align : center;
+    background-color : rgb(121, 177, 214);
+    animation-name: initial;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    display: inline-block;
+    width:100%;
+}
+
+@keyframes cambiarColor {
+    from {background-color: rgb(121, 177, 214);}
+    to {background-color: yellow;}
+}
+body{
+    background-color: rgb(121, 177, 214);
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Zen Antique Soft', serif;
+    }
+nav{
+    background-color: rgb(121, 177, 214);
+    font-size: 2vw;
+    display: inline-block;
+    width:100%;
+}
+a:link {
+    color: red;
+}
+a:visited {
+    color: #00FF00;
+  }
+a:hover {
+    background-color: yellow;
+}
+a:active {
+    background-color: green; color: white;
+}
+::selection{
+      background-color: lightsalmon;
+    }
+main{
+    background-color: rgb(121, 177, 214);
+    text-align: center;
+    font-size: 3vw;
+    padding: 30px;
+    border: 1px solid #000;
+    display: inline-block;
+    width:100%;
+}
+footer{
+    background-color: rgb(121, 177, 214);
+    font-size: 2vw;
+    display: inline-block;
+    width:100%;
+}
+.footer iframe{
+    justify-content: space-around;
+    width: 30%;
+}
